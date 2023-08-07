@@ -70,36 +70,6 @@ jobs:
             file: tts-server
             args: --best --lzma
             use_upx: true
-          - os: ubuntu-latest
-            target: mips-unknown-linux-gnu
-            file: tts-server
-            args: --best --lzma
-            use_upx: true
-          - os: ubuntu-latest
-            target: mips-unknown-linux-musl
-            file: tts-server
-            args: --best --lzma
-            use_upx: true
-          - os: ubuntu-latest
-            target: mipsel-unknown-linux-gnu
-            file: tts-server
-            args: --best --lzma
-            use_upx: true
-          - os: ubuntu-latest
-            target: mipsel-unknown-linux-musl
-            file: tts-server
-            args: --best --lzma
-            use_upx: true
-          - os: ubuntu-latest
-            target: mips64-unknown-linux-gnuabi64
-            file: tts-server
-            args: --best --lzma
-            use_upx: false
-          - os: ubuntu-latest
-            target: mips64el-unknown-linux-gnuabi64
-            file: tts-server
-            args: --best --lzma
-            use_upx: false
           - os: macos-latest
             target: x86_64-apple-darwin
             file: tts-server
